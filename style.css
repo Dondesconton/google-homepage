@@ -1,0 +1,128 @@
+#nav{
+  
+    display: grid;
+    grid-auto-flow: column;
+    min-height: 60px;
+    min-width: 1120px;
+    justify-content: end;
+    align-content: center;
+    grid-gap: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    align-items: center;
+    padding-right: 28px;
+  
+}
+
+#icon{
+  max-with: 30px;
+  max-height:30px;
+}
+#photo{
+    border: 2px;
+    border-radius: 50%;
+}
+
+#logo{
+  margin:100px;
+  display: grid;
+  align-content: end;
+  justify-content:center;
+  max-height: 190px;
+   max-width: 1150px;   
+  }
+#search{ 
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 582px;
+} 
+ #searchbox {
+ border: 0;
+ background: none;
+ width: 582px;
+ height: 35px;
+}
+#search:hover{
+  box-shadow: 0 1px 1px;
+  rgba: (0,0,0,.1);
+   }
+
+  
+#buttons{
+    margin: 30px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    min-width: 1130px;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#button{
+    font-family: arial;
+    font-size: 13px;
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    background: #f2f2f2;
+    border: 0px;
+    color: rgb(78, 78, 78);
+    display:flex;
+    align-items: center;
+}
+#button:hover{
+    color: black;
+    border: 1px solid black;
+}
+    
+#G-esp {
+  padding-top: 30px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 28px;
+}
+#footbar{
+  color: rgb(78, 78, 78);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left:0;
+    bottom:0;
+    display: grid;
+    grid-auto-flow: column;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(245, 245, 245)
+}
+#foot-bar-right{
+    display:grid;
+    grid-gap: 20px;
+    grid-auto-flow: column;
+    justify-content: end;
+    margin-right: 30px;
+    align-items: center;
+}
+#foot-bar-left{
+    display:grid;
+    grid-gap: 20px;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: center;
+    margin-left: 30px;
+    min-width: 700px;
+}
+  
+  
